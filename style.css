@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Open+Sans:ital,wght@1,300&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,900;1,700;1,900&family=Sonsie+One&display=swap');
+
+html {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 62.5%;
+    width: auto;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86rem;
+    height: 4rem;
+    background-color: #FBF5EE;
+    margin-top: -0.5rem;
+}
+.list_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 0.8rem;
+    margin-left: -2rem;
+}
+.list_icon li{
+    padding: 1rem;
+}
+.list_language{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 57%;
+    font-size: 0.8rem;
+}
+.list_language li{
+    padding: 1rem;
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #F9AC73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-drupal{
+    font-size: 2.9rem;
+    color: aliceblue;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+h1{
+    margin-left: 0.3rem;
+    font-size: 1.7rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+.toolbar{
+    display: flex;
+    list-style: none;
+    margin-right: 3.5rem;
+}
+.toolbar li{
+    font-size: 1.2rem;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86rem;
+}
+.fa-heart{
+    color: black;
+} 
+.fa-heart::after{
+    position: absolute;
+    width: 0.1rem;
+    height: 2rem;
+    content: '';
+    background-color: #F9AC73;
+    left: 75.5rem;
+    top: 5.5rem;
+}
+.fa-shop{
+    color: black;
+    position: relative;
+}
+.fa-shop::after{
+    position: absolute;
+    width: 0.1rem;
+    height: 2rem;
+    content: '';
+    background-color: #F9AC73;
+    top: -0.2rem;
+    right: 2.5rem;
+}
+.number{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #F9AC73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    top: 4.7rem;
+    right:3.7rem;
+}
+.nav_item{
+    color: #F9AC73;
+    position: relative;
+}
+.nav_item:hover {
+    background-color: wheat;
+}
+.nav_item:hover .box_1{
+    display: block;
+}
+.box_1{
+    width: 15rem;
+    background-color: white;
+    height: 5rem;
+    display: none;
+    top: 3.1rem;
+    left: 0;
+    position: absolute;
+    color: black;
+    box-shadow: 1px 1px 1px 1px #AAA;
+    border-radius: 10px;
+}
+.box_1 p{
+    margin-left: 1rem;
+}
+.nav_item:hover .box_2{
+    display: block;
+}
+.box_2{
+    width: 15rem;
+    background-color: white;
+    height:7rem;
+    display: none;
+    top: 3.1rem;
+    left: 0;
+    position: absolute;
+    color: black;
+    box-shadow: 1px 1px 1px 1px #AAA;
+    border-radius: 10px;
+}
+.box_2 p{
+    margin-left: 1rem;
+}
+.product_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space{
+    margin-bottom: 3.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.price{
+    margin-left: -6.8rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+.space_1{
+    margin-bottom: 4.9rem;
+    margin-left: 7rem;
+    font-size: 1rem;
+}
+.price_2{
+    margin-left: -6rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+.price_3{
+    margin-left: -6rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+.demo{
+    width: 20%;
+    height: 23rem;
+    background-color: #FBF5EE;
+}
+.img{
+    margin-top: -1rem;
+}
+.product_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.5rem;
+}
+.product_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.5rem;
+}
+
+.totalmoney{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2rem;
+}
+.totalmoney p span{
+    margin-left: 1rem;
+}
+.totalmoney p {
+    margin-right: 1rem;
+}
+.demo{
+    margin-left: 66rem;
+}
+hr{
+    width: 14rem;
+    background-color: silver;
+    opacity: 0.5;
+}
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+}
+.but_1{
+    margin-right: 1rem;
+}
+.but_2{
+    margin-left: 1rem;
+}
